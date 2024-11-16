@@ -20,6 +20,6 @@ describe('convertToFahrenheit', () => {
     expect(convertToFahrenheit(73.2)).toEqual(163.8);
   });
   test('works with negatives', () => {
-    expect(convertToFahrenheit(-50)).toEqual(14);
+    expect(convertToFahrenheit(-50)).toEqual(-58);
   });
 });
